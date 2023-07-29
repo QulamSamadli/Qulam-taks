@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  margin: 200px auto;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(254, 137, 95);
+}
+
+.eyebrow {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(110, 34, 34);
+  clip-path: polygon(0 60%, 66% 0, 100% 40%, 0% 100%);
+  position: absolute;
+}
+.lefteyebrow {
+  top: 70px;
+  left: 50px;
+}
+.righteyebrow {
+  clip-path: polygon(0 27%, 41% 0, 100% 44%, 100% 93%);
+  top: 70px;
+  right: 50px;
+}
+.ear {
+  width: 150px;
+  height: 150px;
+  background-color: bisque;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+.leftear {
+  top: 47px;
+  left: -100px;
+}
+.rightear {
+  top: 47px;
+  right: -100px;
+}
+.eyes {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: white;
+}
+.lefteye {
+  top: 106px;
+  left: 60px;
+}
+.righteye {
+  top: 106px;
+  right: 60px;
+}
+.pupil {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: 18px;
+  top: 6px;
+}
+.nose {
+  width: 40px;
+  height: 40px;
+  background-color: bisque;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: absolute;
+  top: 158px;
+  left: 130px;
+}
+.mouth{
+    width: 159px;
+    height: 83px;
+    border-radius: 50%;
+    border: 21px solid;
+    border-color: transparent;
+    border-bottom-color: red;
+    position: absolute;
+    bottom: 30px;
+    left: 82px;
+}
