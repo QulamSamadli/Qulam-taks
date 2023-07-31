@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding-top: 120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.container .left,
+.container .right {
+  width: 50%;
+}
+.container .left .img {
+  width: 301px;
+  height: 106px;
+  margin-left: -28px;
+}
+.container .left .img img {
+  width: 100%;
+}
+.container .left h1 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .rightCont .right .rightButton form,
+.container .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container .rightCont .right{
+    width: 396px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.container .rightCont .right .rightButton form .inputSize {
+  width: 364px;
+  height: 63px;
+  padding: 14px 16px;
+  border-radius: 6px;
+  font-size: 17px;
+  border: 1px solid #dddfe2;
+}
+/* .container .rightCont .right .rightButton form .inputSize:focus{
+    border-color: #1b74e4;
+    box-shadow: 0 0 0 2px #e7f3ff;
+} */
+.container .rightCont .right .rightButton form .hesabSize {
+  border-radius: 5px;
+  width: 166px;
+  height: 48px;
+  border: none;
+  background-color: #42b72a;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.container .rightCont .right .rightButton form .daxilOl {
+  font-size: 20px;
+  background-color: #1877f2;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.container .rightCont .right .rightButton form a {
+  color: #1877f2;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container .rightCont .right .rightButton form .line {
+  width: 95%;
+  height: 2px;
+  border-bottom: 2px solid #dddfe2;
+}
+.container .rightCont .rightText{
+    text-align: center;
+    margin-top: 12px;
+}
