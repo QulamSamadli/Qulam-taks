@@ -153,7 +153,7 @@ header .container .row form input {
   font-weight: 700;
 }
 
-.engineerSection {
+.engineerSection  {
   background-color: #404040;
 }
 .engineerSection .container .row .engineerImage {
@@ -162,25 +162,46 @@ header .container .row form input {
   object-fit: cover;
 }
 .engineerSection .container .row .engineerImage img {
-  height: 100%;
+  height: 100vh;
 }
-.engineerSection .container .row .engineerAbout .engineerAboutTop h3{
+.engineerSection .container .row .engineerAbout .engineerAboutTop h3 {
   color: #fff;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
-width: 106px;
-height: 43px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  width: 106px;
+  height: 43px;
+ padding-top: 120px;
+ padding-bottom: 80px;
 }
 .engineerSection .container .row .engineerAbout .engineerAboutBottom {
-color: #fff;
-
+  color: #fff;
 }
-.engineerSection .container .row .engineerAbout .engineerAboutBottom h4{
+.engineerSection .container .row .engineerAbout .engineerAboutBottom h4 {
   font-size: 20px;
   font-weight: 700;
 }
-.engineerSection .container .row .engineerAbout .engineerAboutBottom p{
-font-size: 12px;
-font-weight: 400;
+.engineerSection .container .row .engineerAbout .engineerAboutBottom p {
+  font-size: 12px;
+  font-weight: 400;
+}
+.engineerSection .container .row .engineerAbout input{
+  width: 240px;
+height: 60px;
+border-radius: 30px;
+background: #E05100;
+border: 1px solid #E05100;
+color: #fff;
+font-size: 16px;
+font-weight: 700;
+cursor: pointer;
+}
+.engineerSection .container .row .engineerAbout .engineerAboutBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ 
+}
+.engineerSection .container .row{
+  gap: 30px;
 }
