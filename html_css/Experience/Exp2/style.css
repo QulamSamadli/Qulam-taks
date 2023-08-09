@@ -123,6 +123,16 @@ header .container .row form input {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  cursor: pointer;
+  transition: 500ms;
+}
+.catalogesSection
+  .container
+  > .row
+  .catalogesColumn
+  .catalogesImg
+  .catalogImg:hover {
+  transform: scale(1.1);
 }
 .catalogesSection .container > .row .catalogesColumn > .row {
   gap: 20px;
@@ -141,4 +151,36 @@ header .container .row form input {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
+}
+
+.engineerSection {
+  background-color: #404040;
+}
+.engineerSection .container .row .engineerImage {
+  height: 600px;
+
+  object-fit: cover;
+}
+.engineerSection .container .row .engineerImage img {
+  height: 100%;
+}
+.engineerSection .container .row .engineerAbout .engineerAboutTop h3{
+  color: #fff;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+width: 106px;
+height: 43px;
+}
+.engineerSection .container .row .engineerAbout .engineerAboutBottom {
+color: #fff;
+
+}
+.engineerSection .container .row .engineerAbout .engineerAboutBottom h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+.engineerSection .container .row .engineerAbout .engineerAboutBottom p{
+font-size: 12px;
+font-weight: 400;
 }
