@@ -157,9 +157,8 @@ header .container .row form input {
   background-color: #404040;
 }
 .engineerSection .container .row .engineerImage {
-  height: 600px;
-
-  object-fit: cover;
+  /* height: 650px; */
+  /* object-fit: cover; */
 }
 .engineerSection .container .row .engineerImage img {
   height: 100vh;
@@ -171,8 +170,8 @@ header .container .row form input {
   font-weight: 700;
   width: 106px;
   height: 43px;
-  padding-top: 120px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .engineerSection .container .row .engineerAbout .engineerAboutBottom {
   color: #fff;
@@ -204,11 +203,13 @@ header .container .row form input {
 .engineerSection .container .row {
   gap: 30px;
 }
+.brickSection {
+  padding: 100px 0;
+}
 .brickSection .container .row .brickCardsFlex .brickCards1 .brickCard {
   border-radius: 30px;
   background: #fff;
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
-  
 }
 .brickSection .container .row .brickCardsFlex {
   flex-direction: column;
@@ -218,14 +219,10 @@ header .container .row form input {
   gap: 30px;
 }
 
-.brickSection
-  .container
-  .row
-  .brickCardsFlex
-  .brickCards1{
-    display:flex;
-    gap: 20px;
-  }
+.brickSection .container .row .brickCardsFlex .brickCards1 {
+  display: flex;
+  gap: 20px;
+}
 
 .brickSection
   .container
