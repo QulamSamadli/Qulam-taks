@@ -208,6 +208,7 @@ header .container .row form input {
   border-radius: 30px;
   background: #fff;
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  
 }
 .brickSection .container .row .brickCardsFlex {
   flex-direction: column;
@@ -217,6 +218,14 @@ header .container .row form input {
   gap: 30px;
 }
 
+.brickSection
+  .container
+  .row
+  .brickCardsFlex
+  .brickCards1{
+    display:flex;
+    gap: 20px;
+  }
 
 .brickSection
   .container
@@ -228,17 +237,7 @@ header .container .row form input {
   padding-left: 23px;
   padding-top: 20px;
 }
-.brickSection
-  .container
-  .row
-  .brickCardsFlex
-  .brickCards1
-  .brickCard
-  .brickCardleft
-  .brickCardleftImage {
-  width: 283px;
-  height: 172px;
-}
+
 .brickSection
   .container
   .row
