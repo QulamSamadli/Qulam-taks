@@ -156,10 +156,7 @@ header .container .row form input {
 .engineerSection {
   background-color: #404040;
 }
-.engineerSection .container .row .engineerImage {
-  /* height: 650px; */
-  /* object-fit: cover; */
-}
+
 .engineerSection .container .row .engineerImage img {
   height: 100vh;
 }
