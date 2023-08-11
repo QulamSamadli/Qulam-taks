@@ -407,7 +407,7 @@ header .container .row form input {
   justify-content: center;
   align-content: center;
 }
-.workSection{
+.workSection {
   margin: 50px 0;
 }
 
@@ -417,7 +417,7 @@ header .container .row form input {
   font-size: 35px;
   font-weight: 700;
 }
-.workSection .container .row{
+.workSection .container .row {
   flex-direction: column;
   align-items: center;
   gap: 50px;
@@ -430,19 +430,94 @@ header .container .row form input {
   max-width: 600px;
   width: 100%;
 }
-.workSection .container .row .workImages{
+.workSection .container .row .workImages {
   gap: 20px;
 }
-.workSection .container .row .workImages .workImg{
+.workSection .container .row .workImages .workImg {
   flex-direction: row;
   gap: 20px;
-}.workSection .container .row .workImages .workImg img{
+}
+.workSection .container .row .workImages .workImg img {
   transition: 500ms;
   object-fit: cover;
   width: 100%;
   cursor: pointer;
 }
-.workSection .container .row .workImages .workImg img:hover{
+.workSection .container .row .workImages .workImg img:hover {
   transform: scale(1.2);
-
 }
+
+.advantagesSection {
+  background: #404040;
+  padding: 50px 0;
+}
+.advantagesSection .container .row {
+  flex-direction: column;
+}
+
+.advantagesSection .container .row .advantagesh2 h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.advantagesSection
+  .container
+  .row
+  .advantagesCards
+  .advantagesCardImage
+  .advantagesCard {
+  max-width: 280px;
+
+    width: 100%;
+    gap: 10px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.advantagesSection
+  .container
+  .row
+  .advantagesCards
+  .advantagesCardImage
+  .advantagesCard
+  h4 {
+  color: #000;
+  font-size: 14px;
+  max-width: 272px;
+  width: 100%;
+  font-weight: 700;
+ 
+}
+.advantagesSection
+  .container
+  .row
+  .advantagesCards
+  .advantagesCardImage
+  .advantagesCard
+  p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.advantagesSection
+  .container
+  .row
+  .advantagesCards
+  .advantagesCardImage
+  .advantagesCard {
+   display: flex;
+   flex-direction: column;
+padding: 20px;
+  }
+  .advantagesSection
+  .container
+  .row
+  .advantagesCards
+  .advantagesCardImage
+  .advantagesCard .advantagesImg{
+    display: flex;
+    justify-content: center;
+    
+   
+  }
