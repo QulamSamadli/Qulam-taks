@@ -165,7 +165,6 @@ header .container .row form input {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  width: 106px;
   height: 43px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -475,17 +474,16 @@ header .container .row form input {
   background: #fff;
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
   transition: 300ms;
-
 }
 .advantagesSection
   .container
   .row
   .advantagesCards
   .advantagesCardImage
-  .advantagesCard:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-  }
+  .advantagesCard:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 .advantagesSection .container .row .advantagesCards .advantagesCardImage {
   display: flex;
   justify-content: center;
@@ -540,4 +538,103 @@ header .container .row form input {
   .advantagesImg {
   display: flex;
   justify-content: center;
+}
+
+.footer .container .row .footer-left .magazine-flex .magazine-icon img {
+  width: 18px;
+  height: 18px;
+}
+.footer .container .row {
+  justify-content: space-around;
+}
+.footer .container .row .footer-left,
+.footer .container .row .footer-left .magazine-flex {
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .container .row .footer-left .magazine-flex .magazine-icon {
+  gap: 10px;
+}
+.footer .container .row .footer-left h2,
+.footer .container .row .footer-right .footer-ul h2 {
+  color: #e05100;
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer .container .row .footer-left .magazine-flex p,
+.footer .container .row .footer-right .footer-ul li a,
+.footer .container .footer-center p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer .container .row .footer-right .footer-ul {
+  flex-direction: column;
+}
+.footer .container .row .footer-right {
+  gap: 30px;
+}
+.footer .container .footer-center p {
+  text-align: center;
+  padding: 20px 0;
+}
+@media only screen and (max-width: 998px) {
+  .sectionNavbar .container .row {
+    gap: 22px;
+  }
+  header .container .row .headerNavbar p {
+    font-size: 8px;
+  }
+  .catalogesSection .container > .row .catalogesColumn > .row {
+    grid-template-columns: auto auto;
+    gap: 20px;
+    display: grid;
+  }
+  .engineerSection .container .row {
+    gap: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .engineerSection .container .row .engineerAbout .engineerAboutBottom {
+    gap: 19px;
+    align-items: center;
+  }
+  .brickSection .container .row .brickCardsFlex .brickCards1 {
+  
+    display: grid;
+    grid-template-columns: auto;
+   
+}
+.productionSection .container .row .productionTitle {
+  flex-wrap: wrap;
+}
+.workSection .container .row {
+  display: grid;
+}
+}
+@media only screen and (max-width: 768px){
+  header{
+    display: none;  
+  }
+  .sectionNavbar .container .row {
+    gap: 8px;
+}
+  .productionSection .container .row .productionTitle .productionTitlerightt
+  .productionVideo{
+    max-width: 565px;
+    width: 100%;
+  }
+  .productionSection .container .row .productionTitle .productionTitlerightt
+  .productionVideo img{
+    width: 100%;
+  }
+  .catalogesSection .container > .row .catalogesColumn > .row {
+    gap: 10px;
+}
+.engineerSection .container .row .engineerImage img {
+  width: 565px;
+ 
+}
 }
