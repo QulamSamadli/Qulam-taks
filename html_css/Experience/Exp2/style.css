@@ -75,14 +75,12 @@ header .container .row form input {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
-  width: 782px;
 }
 .backgroundImg .container .row p {
   color: #fff;
   text-align: center;
   font-size: 14px;
   font-weight: 400;
-  width: 745px;
 }
 .backgroundImg .container .row form input {
   width: 240px;
@@ -634,7 +632,8 @@ header .container .row form input {
     gap: 10px;
 }
 .engineerSection .container .row .engineerImage img {
-  width: 565px;
+  width: 500px;
  
 }
 }
+/* 565max width qoyaciyiq mediada inspectde ise 335 */
