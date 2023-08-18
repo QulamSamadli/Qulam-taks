@@ -1,3 +1,4 @@
+// A: ehsen
 let ed1 = +prompt("eded daxil edin");
 let ed2 = +prompt("eded daxil edin");
 let operator = prompt("operator daxil edin(+ ve ya -)");
