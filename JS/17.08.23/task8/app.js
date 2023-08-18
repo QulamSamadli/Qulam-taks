@@ -1,3 +1,4 @@
+// A: u r best, milord 👑
 let ed = +prompt(" reqemi daxil edin");
 if(ed===0){
     console.log("ne tekdir ne de cut");
