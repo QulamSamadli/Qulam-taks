@@ -1,3 +1,4 @@
+// A:  live legend 🐱‍💻 
 let ed = +prompt("Reqem daxil ediniz");
 
 if(ed>0){
