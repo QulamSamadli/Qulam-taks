@@ -1,3 +1,4 @@
+// A: best killer 🗡
 let ed1 = +prompt("eded daxil edin");
 let ed2 = +prompt("eded daxil edin");
 let ed3 = +prompt("eded daxil edin");
