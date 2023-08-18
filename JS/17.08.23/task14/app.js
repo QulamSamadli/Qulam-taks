@@ -1,3 +1,4 @@
+// A: done as 🐉
 let ed = +prompt("eded qeyd edin");
 
 if (ed % 2 === 0 && ed % 5 === 0) {
