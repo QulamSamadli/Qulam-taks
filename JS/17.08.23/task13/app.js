@@ -1,3 +1,4 @@
+// A: live legend 🐱‍💻
 let ed = +prompt("eded qeyd edin")
 
 if((ed>=10)&&(ed<100))
