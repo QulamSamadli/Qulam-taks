@@ -1,3 +1,4 @@
+// A: sahdamar 😂 bizim kohne lisey vaxti qulaq asirdiq 😂😂
 let secdiyimMusiqi = prompt(`Sevdiyin musiqinin adini(reqemle bildir) yaz:
 1.wavin' flag
 2.temptation arash

@@ -1,3 +1,5 @@
+// A: excellent ✨
+
 let ed = +prompt("eded qeyd edin");
 
 let msj = "";

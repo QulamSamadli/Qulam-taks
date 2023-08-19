@@ -1,3 +1,4 @@
+// A: live legend 🐱‍💻
 let text = prompt("hansi istifadeci olaraq giris edirsiniz?(admin, user, guest")
 
 if(text==="admin"){
