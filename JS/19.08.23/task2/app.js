@@ -6,10 +6,10 @@ let bmi = ceki / (Math.pow(boy,2));
 if(bmi<18.5){
     console.log(`Sizin BMI: ${bmi},siz ariqsiniz `);
 }
-else if(18.5<bmi && bmi<25){
+else if( bmi<25){
     console.log(`Sizin BMI: ${bmi},siz normal beden olcusune sahibsiniz `);
 }
-else if(25<bmi && bmi<30){
+else if( bmi<30){
     console.log(`Sizin BMI: ${bmi},siz koksunuz `);
 }
 else{console.log(`Sizin BMI: ${bmi},siz obesesiniz `);}
