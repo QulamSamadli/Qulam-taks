@@ -1,3 +1,4 @@
+// A: best killer 🗡
 let text = prompt(`Istiqametleri ingilisce yazin!`);
 if(text===`up`){
     console.log(`yuxari get`);
