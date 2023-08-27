@@ -1,3 +1,4 @@
+// A: live legend 🐱‍💻
 let ceki = +prompt(`cekinizi qeyd edin`)
 let boy = +prompt(`boyunuzu qeyd edin`)
 
