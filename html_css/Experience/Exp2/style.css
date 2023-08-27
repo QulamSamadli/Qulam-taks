@@ -191,7 +191,7 @@ cursor: pointer;
   font-size: 12px;
   font-weight: 400;
 }
-.engineerSection .container .row .engineerAbout input {
+.engineerSection .container .row .engineerAbout a input {
   width: 240px;
   height: 60px;
   border-radius: 30px;
@@ -204,7 +204,11 @@ cursor: pointer;
   cursor: pointer;
 }
 
-.engineerSection .container .row .engineerAbout input:hover{
+
+
+
+
+.engineerSection .container .row .engineerAbout a input:hover{
 border-color: 1px solid #e05100;
 background-color: white;
 color: #e05100;
