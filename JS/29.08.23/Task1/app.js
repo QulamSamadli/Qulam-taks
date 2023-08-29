@@ -1,3 +1,4 @@
+// A: u r best, milord 👑
 let consoleLog = function (sum) {
     console.log(`Cavab:${sum}`);
   };
