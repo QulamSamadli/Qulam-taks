@@ -5,7 +5,7 @@
 // Tutaq ki, müştərinin rubl hesabında 1200 rubl, dollar hesabında isə 20 dollar var.
 // Bir dollar üçün məzənnə 75 rubl təşkil edir.
 // Bu halda, funksiya belə mesaj göstərməlidir: Bütün depozitlər üzrə məbləğ: 2700 rubl.
-
+// A: done as 🐉
 const TO_CHANGE_RUBL = (dollar, rubl) => {
   let dollarToRubl = dollar * 75;
   console.log(dollarToRubl + rubl);
