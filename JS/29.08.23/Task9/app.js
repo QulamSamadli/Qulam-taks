@@ -2,7 +2,7 @@
 // Parametr olaraq üç ədəd qəbul edən və konsolda ən böyüyünü göstərən bir funksiya tərtib edin.
 // Fərqli arqumentlərlə funksiyanı üç dəfə çağırın
 
-
+// A: done as 🐉
 const SHOW_MAX_NUMBER=(a,b,c)=>{
 console.log(Math.max(a,b,c));
 }
