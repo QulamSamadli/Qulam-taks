@@ -1,3 +1,4 @@
+// A: sohbet return etmekden gedirdi, sade oldugu ucun error atmiram amma bilesen
 // Bir ədədi parametr kimi qəbul edən və cüt olduqda true, 
 // tək olduqda isə false qaytaran isEven () funksiyasını yazın.
 
