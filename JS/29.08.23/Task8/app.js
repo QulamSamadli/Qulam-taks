@@ -1,5 +1,5 @@
 // İstifadəçinin daxil etdiyi ədədin bölünəni olan bütün üçrəqəmli ədədlərin cəmini hesablayan proqram yazın. Meselen, 50-ye hansi ucreqemli ededler bolunur?: 100, 150, 200, 250, ....
-
+// A: u r best, milord 👑
 let eded = +prompt(
   `eded daxil edin.Hansiki daxil etdiyiniz eded 3 reqemli ededlere bolunecek ve cemleyecek`
 );

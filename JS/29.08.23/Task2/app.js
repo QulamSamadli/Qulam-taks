@@ -2,6 +2,7 @@
 // Həmin funksiya geriyə funksiya göndərsin.
 // Geriyə göndərdiyi funksiyada əgər cins qadındırsa qarşısına Xanım, kişidirsə cənab yazılıb, console-a çıxarılsın.
 
+// A: proud of you 🤠 
 function checkGender(gender, ad) {
   if (gender === `K`) {
     console.log(`Cenab ${ad}`);

@@ -6,6 +6,7 @@
 // Məsələn, isLucky(234801);  // true qaytaracaq
 
 function isLucky(eded) {
+  // A: variable-lari let ile yarat z.o
   sonuncuEded = eded % 10;
   besinciEded = Math.floor(eded / 10) % 10;
   dorduncuiEded = Math.floor(eded / 100) % 10;
