@@ -8,3 +8,5 @@ if (sol === sag) {
 } else {
   console.log(`Bextinizi bir de sinayin`);
 }
+
+
