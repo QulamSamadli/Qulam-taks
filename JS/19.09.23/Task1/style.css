@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.colorCircle {
+  display: flex;
+  gap: 20px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.circle1 {
+  background-color: blue;
+}
+.circle2 {
+  background-color: red;
+}
+.circle3 {
+  background-color: green;
+}
+.circle4 {
+  background-color: yellow;
+}
