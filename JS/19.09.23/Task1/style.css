@@ -10,11 +10,12 @@
 .colorCircle {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .circle {
-  width: 200px;
-  height: 200px;
+  width: 20vw;
+  height: 20vw;
   border-radius: 50%;
   border: 1px solid black;
 }
