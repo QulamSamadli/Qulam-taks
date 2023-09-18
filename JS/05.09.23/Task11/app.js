@@ -1,3 +1,4 @@
+// A: excellent ✨
 let num = +prompt(`Eded daxil edin`);
 let onluq = Math.floor(num / 10) * 10;
 let teklik = num % 10;
