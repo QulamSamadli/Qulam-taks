@@ -1,5 +1,5 @@
 
-
+// A: live legend 🐱‍💻
 let text = prompt(`Ad ve Soyadinizi qeyd edin`)
 
 
