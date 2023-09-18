@@ -1,3 +1,4 @@
+// A: excellent ✨
 // #task2.
 // propertyTaker adinda funksiya yaradin. Argument kimi obyekt (obj)
 // ve string (proprtyName) alsin.

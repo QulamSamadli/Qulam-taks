@@ -1,4 +1,4 @@
-
+// A: live legend 🐱‍💻
 let gmail = prompt(`mail adressinizi qeyd edin`)
 
 

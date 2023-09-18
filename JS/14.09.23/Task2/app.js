@@ -1,4 +1,5 @@
-  let array=[
+// A: done as 🐉
+let array=[
     {
       "id": 1,
       "name": "Leanne Graham",

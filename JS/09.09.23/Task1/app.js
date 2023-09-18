@@ -1,3 +1,4 @@
+// A: excellent ✨
 const multiple =(...arr)=>{
 let m = 1
 for(let values of arr){

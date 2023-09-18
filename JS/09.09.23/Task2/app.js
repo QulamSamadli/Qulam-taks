@@ -1,3 +1,4 @@
+// A: proud of you 🤠
 let arr = +prompt(`daxil edin`)
 let arr1 = +prompt(`daxil edin`)
 let arr2 = +prompt(`daxil edin`)

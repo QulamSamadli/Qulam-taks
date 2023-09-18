@@ -1,3 +1,4 @@
+// A: done as 🐉
 const first = document.getElementById(`firstCircle`);
 const second = document.getElementById(`secondCircle`);
 const third = document.getElementById(`thirdCircle`);

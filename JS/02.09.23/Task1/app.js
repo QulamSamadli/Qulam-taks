@@ -6,7 +6,7 @@
 // qalanlari da neticeni console-a cixarsin.
 
 // istifade edeceyiniz seylerden biri de   [ ] dynamic property-dir, ya da this.
-
+// A: excellent ✨
 function Calculator() {
   this.read = () => {
     this.eded1 = +prompt(`eded daxil edin`);

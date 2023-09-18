@@ -1,4 +1,4 @@
-
+// A: live legend 🐱‍💻
 // Task1. Get all users whose zip code is less than or equal to 50000.
 
     let array=[
