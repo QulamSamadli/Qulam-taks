@@ -1,3 +1,4 @@
+// A: done as 🐉
 let eded = prompt(`Eded daxil edin`);
 
 let sol = Number(eded[0]) + Number(eded[1]) + Number(eded[2]);
