@@ -16,7 +16,7 @@ body{
 .circle{
    border-radius: 20px;
     width: 359px;
-    height: 400px;
+    height: 350px;
     border: 1px solid white;
     background-color: black;
    display: flex;
