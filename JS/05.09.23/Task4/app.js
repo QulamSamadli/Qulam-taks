@@ -1,3 +1,4 @@
+// A: excellent ✨
 function ilkHerfiDeyis(soz, ilkHerf) {
   return soz.replace(soz[0], ilkHerf);
 }
