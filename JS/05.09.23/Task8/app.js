@@ -1,3 +1,4 @@
+// A: excellent ✨
 let eded = +prompt(`Nece defe "I know how to use cycles" mesaji yazilsin?`);
 
 
