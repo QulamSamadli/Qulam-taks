@@ -1,7 +1,9 @@
 // #task2
 // Car constructor-u yaradin. Biz hemin constructor-u cagiranda onun modelini, istehsal ilini, sahibini verek. Ve elbette, masinin surmek, tormozlamaq kimi methodlari olmalidir ki, onlari da verin. Meselen, surmek methodunu cagirsam ekrana,  ali zapi markali masinina qaz verir.
 
+// A: () ve vergullere ehtiyac yoxdur. 
 function Car(model, tarix, sahib, suret) {
+  // this.model = model; bu formada olmalidir
   (this.model = model),
     (this.tarix = tarix),
     (this.sahib = sahib),
