@@ -53,7 +53,7 @@ const root = document.getElementById("root");
 // root.className = `salam`;
 // root.innerHTML = `<div><img src:"${users[4].img}.jpg"></div>`;
 // root.innerHTML += `<h2>SAlam</h2>`;
-
+// A: ela
 for (let i = 0; i < users.length; i++) {
   root.className = `salam`;
   root.innerHTML += `<div class="circle"><img src="./img/${users[i].img}.jpg"><h1>${users[i].username}</><p>${users[i].job}</p></div>`;
