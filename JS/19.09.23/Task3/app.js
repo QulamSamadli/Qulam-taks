@@ -1,3 +1,4 @@
+// A: proud of you 🤠
 // 5 eded sekil olsun. Hemin sekillerin src-u olan massiv yaradin. 
 let imgs = document.getElementById(`images`)
 
