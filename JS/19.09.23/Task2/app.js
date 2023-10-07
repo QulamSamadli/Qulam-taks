@@ -1,3 +1,4 @@
+// A: proud of you 🤠
 let cevreninUzunlugu = document.getElementById(`cevreninUzunlugu`);
 let cevreninSahesi = document.getElementById(`cevreninSahesi`);
 
